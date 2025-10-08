@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Applications | E-Gov Portal</title>
+  <link rel="stylesheet" href="applications.css">
+</head>
+<body>
+  <header>
+    <h1>E-Gov Admin Dashboard</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="services.html">Services</a>
+      <a href="applications.html" class="active">Applications</a>
+      <button id="logoutBtn" class="logout-btn"><i class="fa-solid fa-right-from-bracket"></i>Logout</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Submitted Applications</h2>
+    <div class="table-container">
+      <table id="applicationsTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Citizen Name</th>
+            <th>Service</th>
+            <th>Status</th>
+            <th>Submitted On</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic rows will load here -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 E-Gov Portal. All rights reserved.
+  </footer>
+
+  <script src="js/applications.js"></script>
+</body>
+</html>

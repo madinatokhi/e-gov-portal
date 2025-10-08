@@ -1,0 +1,86 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.login-container {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.field {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background: #4b6cb7;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background: #3d5fa9;
+}
+
+.link, .create-account {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link a, .create-account a {
+  color: #3d5fa9;
+  text-decoration: none;
+}
+
+.link a {
+
+ font-size: small;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 37px;
+  cursor: pointer;
+  color: #777;
+}
